@@ -1,0 +1,7 @@
+<!-- show page for blogger -->
+<%= @blogger.name %><br><br>
+<%= @blogger.bio %><br><br>
+
+<%= @blogger.total_likes %><br><br>
+
+<%= link_to @blogger.featured_post.title, post_path(@blogger.featured_post) %>
